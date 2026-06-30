@@ -1,0 +1,22 @@
+title: 大山里的解码者
+description: AI论文解码与思考 · 自动发布
+baseurl: "/blog"
+url: "https://d4rector.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+permalink: /:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+author:
+  name: "大山里的解码者"
+  email: "2424033445@qq.com"
